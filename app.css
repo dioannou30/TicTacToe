@@ -1,0 +1,37 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+#left-half {
+  border-right: 2px solid black;
+}
+
+.cell {
+  width: 85px;
+  height: 85px;
+  border: 3px solid black;
+  font-size: 45pt;
+  text-align: center;
+}
+
+.endgame {
+  width: 200px;
+  top: 90px;
+  background-color: rgba(0, 153, 0, 0.9);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+}
+
+#board {
+  margin: 0 auto;
+}
+
+#buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
